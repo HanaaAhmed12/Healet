@@ -17,10 +17,10 @@
             </button>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="shop.html">Shop</a>
-                <a href="blog.html">Blog</a>
+                <a href="{{route('index')}}">Home</a>
+                <a href="{{route('about')}}">About</a>
+                <a href="{{route('shop')}}">Shop</a>
+                <a href="{{route('blog')}}">Blog</a>
               </div>
             </div>
           </div>
